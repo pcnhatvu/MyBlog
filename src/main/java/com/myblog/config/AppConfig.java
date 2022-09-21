@@ -16,6 +16,6 @@ public class AppConfig {
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}
-		return new DriverManagerDataSource("jdbc:mysql://localhost:3306/personal_finance", "root", "123456");
+		return new DriverManagerDataSource("jdbc:mysql://localhost:3306/my_blog", "root", "123456");
 	}
 }
